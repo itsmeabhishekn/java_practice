@@ -7,5 +7,9 @@ public class Main {
         myFavouriteMapleTree.tallTreeAnnouncement();
 
         Tree.announceTree();
+
+        System.out.println(myFavouriteMapleTree.getHeight());
+        System.out.println(myFavouriteMapleTree.getTreetype());
+        System.out.println(myFavouriteMapleTree.getTrunkLength());
     }
 }

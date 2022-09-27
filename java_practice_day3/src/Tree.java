@@ -1,11 +1,11 @@
 import java.awt.*;
 
 public class Tree {
-    double height;
-    double trunkLength;
-    TreeType treetype;
+    private double height;
+    private double trunkLength;
+    private TreeType treetype;
 
-    static Color TRUNK_COLOR = new Color(102,51,0);
+    protected static Color TRUNK_COLOR = new Color(102,51,0);
 
 
 
@@ -13,6 +13,18 @@ public class Tree {
         this.height = height;
         this.trunkLength = trunkLength;
         this.treetype = treetype;
+    }
+
+    public double getHeight(){
+        return height;
+    }
+
+    public double getTrunkLength(){
+        return trunkLength;
+    }
+
+    public TreeType getTreetype(){
+        return  treetype;
     }
 
     void grow(){
