@@ -63,7 +63,7 @@ class partTimeFaculty extends Faculty{
         System.out.println("Enter number of hours worked by faculty ");
         hour = reader.nextInt();
 
-        System.out.println("Enter rate per hour for the employee ");
+        System.out.println("Enter rate per hour for the employee. ");
         rate = reader.nextDouble();
     }
     double calcSalaryPartTime(int hour,double rate)
